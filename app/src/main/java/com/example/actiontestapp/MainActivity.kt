@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Hello $name! This is a test to see if pushing triggers a build or if only tagging triggers it.",
         modifier = modifier
     )
 }
